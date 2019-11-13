@@ -1,20 +1,30 @@
 # Codecool Quest
 
-This is a simple tile-based RPG game.
+This is a tile-based RPG game. The project is using JavaFX and Oracle's Java 8.
 
-## Opening the project
 
-Open the project in IntelliJ IDEA. This is a Maven project, so you will need to open `pom.xml`.
+![start](src/main/resources/design/start.png)
 
-The project is using JavaFX, and should work with Oracle's Java 8.
 
-## Architecture
 
-The project is meant to teach the concept of **layer separation**. All of the game logic (that is, player movement, game rules, and so on), is in the `logic` package, completely independent of user interface code. In principle, you could implement a completely different interface (terminal, web, Virtual Reality...) for the same logic code.
+## Some features:
 
-## Product Backlog
+* player is not able to stand on walls or monster tiles
+* there are items that can be picked up by player like key or sword
 
-[Codecool Quest Product Backlog](https://docs.google.com/spreadsheets/d/1CvVh2s6obWEh4eQxu8w4f3jBLhz208bG-1FybWGc1sA/edit#gid=0)
+![key-picked-up-and-door-opened](src/main/resources/design/key-picked-up-and-door-opened.png)
+
+* key is opening door
+* sword gives additional power when we attact mosters
+* moster attack as at the same time as we attack him
+
+![picked-up-sword-and-some-health-lost](src/main/resources/design/picked-up-sword-and-some-health-lost.png)
+
+* monsters have different behaviours
+
+![win](src/main/resources/design/win.png)
+
+
 
 ## Graphics
 
